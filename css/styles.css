@@ -12,7 +12,7 @@ ul {
   font-size: 56px;
   line-height: 107%;
   text-align: center;
-  letter-spacing: 0.02em
+  letter-spacing: 0.02em;
   color: #ffffff;
   background-color: 2e2F42;
 }
@@ -30,7 +30,8 @@ ul {
   border: none;
   cursor: pointer;
 }
-.main-button:focus {
+.main-button:focus, 
+.main-button:hover{
   background: #404bbf;
 }
 .logo-head {
@@ -41,7 +42,7 @@ ul {
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
 }
 
 .logo-studio {
@@ -59,11 +60,14 @@ ul {
 .header-list a:hover {
   color: #404bbf;
 }
-#Studio:focus {
+.studio:focus {
   color: #404bbf;
   text-decoration: underline;
 }
-.contacts a {
+.contacts {
+  font-style: normal;
+}
+.mail-cont{
   font-size: 16px;
   font-style: normal;
   line-height: 150%;
@@ -71,7 +75,20 @@ ul {
   color: #434455;
   text-decoration: none;
 }
-.contacts a:hover {
+.mail-cont:hover,
+.mail-cont:focus{
+  color: #404bbf;
+}
+.tel-cont{
+  font-size: 16px;
+  font-style: normal;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #434455;
+  text-decoration: none;
+}
+.tel-cont:hover,
+.tel-cont:focus{
   color: #404bbf;
 }
 .titel-2{
@@ -99,6 +116,9 @@ ul {
   letter-spacing: 0.02em
 }
 
+.team {
+  background-color: #F4F4FD;
+}
 .titel-team{
   font-weight: 700;
   font-size: 36px;
@@ -110,7 +130,7 @@ ul {
 }
 
 .team-list{
-  background-color: #F4F4FD
+  background-color: #FFFFFF;
 }
 .name {
   font-weight: 500;
@@ -131,12 +151,12 @@ ul {
   background-color: #FFFFFF
 }
 
-.titel-portfolio{
+.titel-portfolio {
   font-weight: 700;
   font-size: 36px;
   line-height: 111%;
   letter-spacing: 0.02em;
-  text-transform: capitalize
+  text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
 }
@@ -162,7 +182,7 @@ ul {
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
 }
 .logo-footer {
   color: #f4f4fd;
