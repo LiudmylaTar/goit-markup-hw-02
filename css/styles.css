@@ -67,7 +67,7 @@ ul {
 .contacts {
   font-style: normal;
 }
-.mail-cont {
+.list-cont {
   font-size: 16px;
   font-style: normal;
   line-height: 150%;
@@ -75,20 +75,8 @@ ul {
   color: #434455;
   text-decoration: none;
 }
-.mail-cont:hover,
-.mail-cont:focus {
-  color: #404bbf;
-}
-.tel-cont {
-  font-size: 16px;
-  font-style: normal;
-  line-height: 150%;
-  letter-spacing: 0.02em;
-  color: #434455;
-  text-decoration: none;
-}
-.tel-cont:hover,
-.tel-cont:focus {
+.list-cont:hover,
+.list-cont:focus {
   color: #404bbf;
 }
 .titel-2 {
