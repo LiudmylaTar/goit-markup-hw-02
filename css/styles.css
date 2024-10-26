@@ -1,7 +1,7 @@
 body {
   font-family: Roboto, sans-serif;
   color: #434455;
-  background-color:#FFFFFF 
+  background-color: #ffffff;
 }
 
 ul {
@@ -17,8 +17,8 @@ ul {
   background-color: 2e2F42;
 }
 
-.main-page{
-  background-color:#2e2f42; 
+.main-page {
+  background-color: #2e2f42;
 }
 .main-button {
   background-color: #4d5ae5;
@@ -30,10 +30,11 @@ ul {
   border: none;
   cursor: pointer;
 }
-.main-button:focus, 
-.main-button:hover{
+.main-button:focus,
+.main-button:hover {
   background: #404bbf;
 }
+
 .logo-head {
   font-weight: 700;
   font-size: 18px;
@@ -44,12 +45,11 @@ ul {
   text-decoration: none;
   font-family: Raleway, sans-serif;
 }
-
 .logo-studio {
   color: #2e2f42;
 }
 
-.header-list a {
+.nav-list {
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
@@ -57,17 +57,17 @@ ul {
   color: #2e2f42;
   text-decoration: none;
 }
-.header-list a:hover {
+.nav-list:hover {
   color: #404bbf;
 }
-.studio:focus {
+.nav-list:focus {
   color: #404bbf;
   text-decoration: underline;
 }
 .contacts {
   font-style: normal;
 }
-.mail-cont{
+.mail-cont {
   font-size: 16px;
   font-style: normal;
   line-height: 150%;
@@ -76,10 +76,10 @@ ul {
   text-decoration: none;
 }
 .mail-cont:hover,
-.mail-cont:focus{
+.mail-cont:focus {
   color: #404bbf;
 }
-.tel-cont{
+.tel-cont {
   font-size: 16px;
   font-style: normal;
   line-height: 150%;
@@ -88,10 +88,10 @@ ul {
   text-decoration: none;
 }
 .tel-cont:hover,
-.tel-cont:focus{
+.tel-cont:focus {
   color: #404bbf;
 }
-.titel-2{
+.titel-2 {
   font-weight: 700;
   font-size: 36px;
   line-height: 111%;
@@ -100,7 +100,7 @@ ul {
   color: 2e2F42;
 }
 
-.benefits-titel{
+.benefits-titel {
   font-weight: 500;
   font-size: 20px;
   line-height: 120%;
@@ -113,24 +113,24 @@ ul {
   line-height: 150%;
   letter-spacing: 2%;
   color: #434455;
-  letter-spacing: 0.02em
+  letter-spacing: 0.02em;
 }
 
 .team {
-  background-color: #F4F4FD;
+  background-color: #f4f4fd;
 }
-.titel-team{
+.titel-team {
   font-weight: 700;
   font-size: 36px;
   line-height: 111%;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  text-transform: capitalize
+  text-transform: capitalize;
 }
 
-.team-list{
-  background-color: #FFFFFF;
+.team-list {
+  background-color: #ffffff;
 }
 .name {
   font-weight: 500;
@@ -148,7 +148,7 @@ ul {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
-  background-color: #FFFFFF
+  background-color: #ffffff;
 }
 
 .titel-portfolio {
@@ -161,7 +161,7 @@ ul {
   color: #2e2f42;
 }
 
-.product{
+.product {
   font-weight: 500;
   font-size: 20px;
   line-height: 120%;
